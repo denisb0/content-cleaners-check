@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cleaner-check"
+version = "0.1.0"
+description = ""
+authors = ["denisb0 <denisb42@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cleaner_check"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.0"
+google-cloud-storage = "^2.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
