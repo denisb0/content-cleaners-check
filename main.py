@@ -96,12 +96,6 @@ def scraped_uuid(url, source_id):
 
 
 def main():
-    # todo
-    # load csv with url, source id cleaned id
-    # generate scraped id from url + source id
-    # try to clean
-    # try to clean from url directly
-    # compare with data from cleaned id
 
     parser = argparse.ArgumentParser(description='cleaner checker')
     parser.add_argument('--file', type=str,
